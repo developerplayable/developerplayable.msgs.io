@@ -1,15 +1,17 @@
 <html>
     <body>
-        <h1>Message Rendering Playable Instant Play with Video Controls</h1>
-        <video id="video" width="640" height="360" controls="true" controls="" autoplay="" loop="" muted="">
-            <source src="https://cdn.playable.video/editor/5392803786653696/desktop-600x600-600:600:0:0.mp4" type="video/mp4">
-        </video>
-        <br>
-        <button onclick="playVideo()">Play</button>
-        <button onclick="pauseVideo()">Pause</button>
-        <button onclick="stopVideo()">Stop</button>
-        <button onclick="rewindVideo()">Rewind 10s</button>
-        <button onclick="fastForwardVideo()">Fast Forward 10s</button>
+        <div background="#fff">
+            <h1>Message Rendering Playable Instant Play with Video Controls</h1>
+            <video id="video" width="640" height="360" controls="true" controls="" autoplay="" loop="" muted="">
+                <source src="https://cdn.playable.video/editor/5392803786653696/desktop-600x600-600:600:0:0.mp4" type="video/mp4">
+            </video>
+            <br>
+            <button onclick="playVideo()">Play</button>
+            <button onclick="pauseVideo()">Pause</button>
+            <button onclick="stopVideo()">Stop</button>
+            <button onclick="rewindVideo()">Rewind 10s</button>
+            <button onclick="fastForwardVideo()">Fast Forward 10s</button>
+        <div>
 
         <script>
             var video = document.getElementById("video");

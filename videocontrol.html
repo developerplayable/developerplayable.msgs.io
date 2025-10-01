@@ -86,40 +86,7 @@
 #toast-container > .toast-callcloud.toast-success {
     background-image: url('chrome-extension://lfledconhmbdgchgmfmfpolkjmjdnjge/assets/images/svg/callcloud-icon.svg') !important;
 }
-</style><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet"></head><body bindly-id="f825-43f2-3a07" bindly-type="original" bindly="bound" bindly-group-id="9730-3587-4680">
-    <video controls="" autoplay="" muted="" loop="" name="media">
-        <source src="https://cdn.playable.video/editor/5392803786653696/desktop-600x600-600:600:0:0.mp4" type="video/mp4"></video><div class="callcloud-injection-button-wrapper callcloud-hidden callcloud-injection-buttons-container-expandable ui-draggable" data-vre-stick-to="left" data-vre-direction-to="bottom" id="callcloud-injection-container" bindly="bound" bindly-type="duplicate" bindly-group-id="9730-3587-4680" bindly-id="c487-7c25-58b9" bindly-pair-id="f825-43f2-3a07" style="inset: 400px auto auto 28px;">
-            <button onclick="playVideo()">Play</button>
-            <button onclick="pauseVideo()">Pause</button>
-            <button onclick="stopVideo()">Stop</button>
-            <button onclick="rewindVideo()">Rewind 10s</button>
-            <button onclick="fastForwardVideo()">Fast Forward 10s</button>
-        <div>
-
-        <script>
-            var video = document.getElementById("video");
-
-            function playVideo() {
-                video.play();
-            }
-
-            function pauseVideo() {
-                video.pause();
-            }
-
-            function stopVideo() {
-                video.pause();
-                video.currentTime = 0;
-            }
-
-            function rewindVideo() {
-                video.currentTime = Math.max(0, video.currentTime - 10);
-            }
-
-            function fastForwardVideo() {
-                video.currentTime = Math.min(video.duration, video.currentTime + 10);
-            }
-        </script>
+</style><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet"></head><body bindly-id="f825-43f2-3a07" bindly-type="original" bindly="bound" bindly-group-id="9730-3587-4680"><video controls="" autoplay="" name="media"><source src="https://cdn.playable.video/editor/5392803786653696/desktop-600x600-600:600:0:0.mp4" type="video/mp4"></video><div class="callcloud-injection-button-wrapper callcloud-hidden callcloud-injection-buttons-container-expandable ui-draggable" data-vre-stick-to="left" data-vre-direction-to="bottom" id="callcloud-injection-container" bindly="bound" bindly-type="duplicate" bindly-group-id="9730-3587-4680" bindly-id="c487-7c25-58b9" bindly-pair-id="f825-43f2-3a07" style="inset: 400px auto auto 28px;">
   <span class="callcloud-injection-drag-handle ui-draggable-handle"></span>
   <div class="callcloud-injection-buttons-container">
     <div id="callcloud-global-dialer-injection" class="callcloud-injection-drag-handle-2 global-dialer-injection-hidden"><div id="callcloud-global-dialer">

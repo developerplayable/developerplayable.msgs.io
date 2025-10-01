@@ -50,7 +50,40 @@
   <span class="callcloud-injection-drag-handle ui-draggable-handle"></span>
   <div class="callcloud-injection-buttons-container">
     <div id="callcloud-global-dialer-injection" class="callcloud-injection-drag-handle-2 global-dialer-injection-hidden"><div id="callcloud-global-dialer">
-  <style>
+  </video>
+            <br>
+            <button onclick="playVideo()">Play</button>
+            <button onclick="pauseVideo()">Pause</button>
+            <button onclick="stopVideo()">Stop</button>
+            <button onclick="rewindVideo()">Rewind 10s</button>
+            <button onclick="fastForwardVideo()">Fast Forward 10s</button>
+        <div>
+
+        <script>
+            var video = document.getElementById("video");
+
+            function playVideo() {
+                video.play();
+            }
+
+            function pauseVideo() {
+                video.pause();
+            }
+
+            function stopVideo() {
+                video.pause();
+                video.currentTime = 0;
+            }
+
+            function rewindVideo() {
+                video.currentTime = Math.max(0, video.currentTime - 10);
+            }
+
+            function fastForwardVideo() {
+                video.currentTime = Math.min(video.duration, video.currentTime + 10);
+            }
+        </script>
+ <style>
     #callcloud-global-dialer p,
     #callcloud-global-dialer span,
     #callcloud-global-dialer img,

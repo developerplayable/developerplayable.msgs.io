@@ -1,106 +1,123 @@
+
 <!doctype html>
 <html lang="en">
 
 <head>
-    <!-- Open Graph   Tags -->
-    <meta property="og:title" content="Tap or Hold - Playable">
-    <meta property="og:description" content="Advanced HTML Page for SMS, WhatsApp++, Click & Be Amazed">
-    <meta property="og:image" content="https://developerplayable.github.io/developerplayable.msgs.io/ww-optimised.gif">
+
+    <meta property="og:title" content="Sonos Batters - Tap or Hold">
+    <meta property="og:description" content="Advanced SMS Templete Click">
+    <meta property="og:image" content="https://cdn.playable.video/sonos.playable.video/v:4896427360387072/0/4896427360387072/16:9/-/0.gif">
     <meta property="og:url" content="">
-    <meta property="og:video" content="https://cdn.playable.video/demo.playable.video/demo:5128992466927616/0/5128992466927616/16:9/-/1.mp4">
+    <meta property="og:video" content="https://cdn.playable.video/sonos.playable.video/v:4896427360387072/1/4896427360387072/16:9/-/n1.mp4">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Playable SMS">
+    <meta property="og:site_name" content="Playable Sonos">
+
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
-    <title>THE WAR WITHIN™</title>
+    <link href='https://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href="https://db.onlinewebfonts.com/c/e770a9e3ae1a8be2089472bc6391f697?family=Electronic+Arts+Display"
+        rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text"
+        rel="stylesheet">
+    <title>SONOS</title>
     <style>
         @font-face {
             font-family: 'Sailec Bold';
-            src: url(https://appboy-images.com/appboy/communication/assets/font_assets/files/5f2d540126e78f1669f53229/original.otf?1596806145) format('truetype')
+            src: url('https://appboy-images.com/appboy/communication/assets/font_assets/files/5f2d540126e78f1669f53229/original.otf?1596806145') format('truetype');
         }
 
         @font-face {
             font-family: 'Sailec Normal';
-            src: url(https://appboy-images.com/appboy/communication/assets/font_assets/files/5f2d5401ff0a7415251998d6/original.otf?1596806145) format('truetype')
+            src: url('https://appboy-images.com/appboy/communication/assets/font_assets/files/5f2d5401ff0a7415251998d6/original.otf?1596806145') format('truetype');
         }
 
         :root {
-            --font-title: "Metamorphous", sans-serif;
-            --font-button: "Roboto", sans-serif;
-            --font-description: "Open Sans", sans-serif
+            --font-title: "Sonos Product Name", Arial;
+            --font-button: "Sonos Product Description", Arial;
+            --font-description: "Sonos Product Description", Arial;
         }
 
+        /* Box sizing rules */
         *,
-        ::after,
-        ::before {
-            box-sizing: border-box
+        *::before,
+        *::after {
+            box-sizing: border-box;
         }
 
-        ol[class],
-        ul[class] {
-            padding: 0
+        /* Remove default padding */
+        ul[class],
+        ol[class] {
+            padding: 0;
         }
 
-        blockquote,
+        /* Remove default margin */
         body,
-        dd,
-        dl,
-        figcaption,
-        figure,
         h1,
         h2,
         h3,
         h4,
-        li,
-        ol[class],
         p,
-        ul[class] {
-            margin: 0
+        ul[class],
+        ol[class],
+        li,
+        figure,
+        figcaption,
+        blockquote,
+        dl,
+        dd {
+            margin: 0;
         }
 
+        /* Set core body defaults */
         body {
             scroll-behavior: smooth;
             text-rendering: optimizeSpeed;
             line-height: 1.5;
             -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale
+            -moz-osx-font-smoothing: grayscale;
         }
 
-        ol[class],
-        ul[class] {
-            list-style: none
+        /* Remove list styles on ul, ol elements with a class attribute */
+        ul[class],
+        ol[class] {
+            list-style: none;
         }
 
+        /* A elements that don't have a class get default styles */
         a:not([class]) {
-            text-decoration-skip-ink: auto
+            text-decoration-skip-ink: auto;
         }
 
+        /* Make images easier to work with */
         img {
             max-width: 100%;
-            display: block
+            display: block;
         }
 
+        /* Natural flow and rhythm in articles by default */
         article>*+* {
-            margin-top: 1em
+            margin-top: 1em;
         }
 
-        a,
-        button,
+        /* Inherit fonts for inputs and buttons */
         input,
-        select,
-        textarea {
-            font: inherit
+        button,
+        a,
+        textarea,
+        select {
+            font: inherit;
         }
 
-        a,
-        button {
+        button,
+        a {
             border: none;
             background-color: transparent;
-            text-decoration: none
+            text-decoration: none;
         }
 
         .overlay {
@@ -110,8 +127,8 @@
             left: 0;
             height: 100vh;
             width: 100vw;
-            background-color: rgba(0, 0, 0, .7);
-            z-index: 99999
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 99999;
         }
 
         .modal {
@@ -121,18 +138,18 @@
             margin: auto;
             display: flex;
             flex-direction: column;
-            position: relative
+            position: relative;
         }
 
         .modal__image {
-            height: 330px
+            height: 330px;
         }
 
         .modal__image video {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-radius: 10px 10px 0 0
+            border-radius: 10px 10px 0px 0px;
         }
 
         .modal__content {
@@ -140,8 +157,19 @@
             flex-direction: column;
             position: relative;
             padding: 20px 14px 20px 14px;
-            background-color: #000;
-            border-radius: 0 0 10px 10px
+            background-color: rgb(21, 23, 22);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .cta-button {
+            border-width: 2px;
+            border-style: solid;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            width: fit-content;
+            color: #ffffff; /* Replace with actual color value if known */
         }
 
         .modal__cross {
@@ -156,7 +184,7 @@
             background: rgba(128, 128, 128, .2);
             display: flex !important;
             justify-content: center;
-            padding: 1px
+            padding: 1px;
         }
 
         .modal__mute {
@@ -171,127 +199,156 @@
             background: rgba(128, 128, 128, .2);
             display: flex !important;
             justify-content: center;
-            padding: 1px
+            padding: 1px;
         }
 
         .modal__title {
             margin-bottom: 10px;
             font-size: 22px;
+            font-weight: 400;
             line-height: 1.2;
-            color: #fff;
+            color: #ffffff;
             font-family: var(--font-title);
-            text-align: center
+            text-align: center;
         }
 
         .modal__sub-title {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
             font-family: var(--font-description);
             font-size: 1rem;
-            color: hsla(0, 0%, 100%, .7);
-            text-align: left
+            font-weight: normal;
+            color: hsla(0, 0%, 100%, 1);
+            text-align: center;
         }
 
         .modal__text {
             font-family: var(--body-font-stack);
             font-size: 14px;
-            color: #101b24;
-            line-height: 1.5
+            color: #101B24;
+            line-height: 1.5;
         }
 
         .modal__button-wrap {
             display: flex;
             margin-top: auto;
-            margin-left: 0;
-            justify-content: space-between
+            margin-left: 0px;
+            justify-content: center;
         }
 
         .modal__btn {
-            border-radius: 4px;
+            border-radius: 26px;
             font-family: var(--font-button);
-            font-weight: 600;
-            min-height: 55px;
-            max-height: 55px;
-            width: 150px;
+            font-weight: 400;
+            min-height: 45px;
+            max-height: 45px;
             align-items: center;
             display: flex;
             justify-content: center;
-            text-align: center
+            text-align: center;
+            transition: transform 0.2s ease;
         }
 
         .modal__btn--main {
-            color: #000;
-            font-size: 14px;
-            background-image: url(https://world-of-warcraft-dragon-flight.s3.us-west-2.amazonaws.com/Grey+WoW+Button.png);
+            color: rgb(0, 0, 0, 0.1);
+            font-size: 16px;
             background-size: 150px 55px;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
 
+        /* this is the secondary button style, can be used if they want the buttons to appear different*/
         .modal__btn--secondary {
-            color: #fff;
-            font-size: 14px;
-            background-image: url(https://world-of-warcraft-dragon-flight.s3.us-west-2.amazonaws.com/Blue+WoW+Button.png);
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            background-color: rgb(255, 88, 56);
             background-size: 150px 55px;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
+        }
+
+        .modal__btn--third {
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            background-color: rgb(21, 23, 22);
+            border: 1px solid;
+            border-color: #ffffff;
+            background-size: 150px 55px;
+            background-repeat: no-repeat;
+        }
+
+        .modal__btn:hover {
+            transform: scale(0.95); /* Shrinks the button by 5% when hovered */
+        }
+
+        .icon {
+            filter: invert(1);
+            width: 16px;
+            /* Shrink the icon size */
+            height: 16px;
+            margin-left: 8px;
+            /* Add padding between the text and icon */
         }
 
         .hide {
-            display: none
+            display: none;
         }
 
         .fade {
             opacity: 0;
-            transition: opacity 1s ease-in-out
+            transition: opacity 1s ease-in-out;
         }
 
         .show {
-            opacity: 1
+            opacity: 1;
         }
 
         .txt-style {
-            border-radius: 20px
+            border-radius: 20px;
         }
 
-        @media (max-width:360px) and (min-width:0px) {
+        /*Phones*/
+        /* Small devices (portrait tablets and large phones) */
+
+        @media (max-width: 360px) and (min-width: 0px) {
             .modal__image {
-                height: 260px
+                height: 260px;
             }
 
             .modal__title {
-                font-size: 19px
+                font-size: 19px;
             }
 
             .modal__sub-title {
-                font-size: .7rem
+                font-size: 0.7rem;
             }
         }
 
-        @media (max-width:380px) and (min-width:350px),
-        (max-height:700px) and (min-height:600px) {
+        @media (max-width: 380px) and (min-width: 350px),
+        (max-height: 700px) and (min-height: 600px) {
             .modal__image {
-                height: 260px
+                height: 260px;
             }
 
             .modal__title {
-                font-size: 19px
+                font-size: 19px;
             }
 
             .modal__sub-title {
-                font-size: .7rem
+                font-size: 0.7rem;
             }
         }
 
-        @media (max-width:400px) and (min-width:380px),
-        (max-height:800px) and (min-height:700px) {
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media (max-width: 400px) and (min-width: 380px),
+        (max-height: 800px) and (min-height: 700px) {
             .modal__image {
-                height: 290px
+                height: 290px;
             }
 
             .modal__title {
-                font-size: 20px
+                font-size: 20px;
             }
 
             .modal__sub-title {
-                font-size: .9rem
+                font-size: 13px;
             }
         }
     </style>
@@ -299,96 +356,41 @@
 
 <body>
     <div class="overlay">
-        <div class="modal"><a data-button-id="close" class="modal__cross" onclick="brazeBridge.closeMessage()"><svg
-                    xmlns="http://www.w3.org/2000/svg" fill="none" stroke="rgba(0, 0, 0, 0.7)" stroke-linecap="round"
+        <div class="modal">
+            <a data-button-id="close" class="modal__cross" onclick="window.close()"
+                onclick="brazeBridge.closeMessage()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="rgba(0, 0, 0, 0.7)" stroke-linecap="round"
                     stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" part="icon blz-icon">
                     <path d="M18 6 6 18M6 6l12 12"></path>
-                </svg></a><a button-id="mute" class="modal__mute" onclick="toggleSound()"><svg
-                    xmlns="http://www.w3.org/2000/svg" fill="rgba(0, 0, 0, 0.7)" viewBox="0 0 640 512">
+                </svg>
+            </a>
+            <a button-id="mute" class="modal__mute" onclick="toggleSound()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(0, 0, 0, 0.7)" viewBox="0 0 640 512">
                     <path
                         d="M301.1 34.8C312.6 40 320 51.4 320 64V448c0 12.6-7.4 24-18.9 29.2s-25 3.1-34.4-5.3L131.8 352H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h67.8L266.7 40.1c9.4-8.4 22.9-10.4 34.4-5.3zM425 167l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z">
                     </path>
-                </svg></a>
-            <div class="modal__image"><video id="video" muted autoplay playsinline>
-                    <source id="source" src="https://cdn.playable.video/editor/5881057547911168/clickplay.mp4"
+                </svg>
+            </a>
+            <div class="modal__image">
+                <video id="video" muted autoplay playsinline loop>
+                    <source id="source" src="https://cdn.playable.video/sonos.playable.video/v:4896427360387072/1/4896427360387072/16:9/-/native.mp4"
                         type="video/mp4">
-                </video></div>
+                </video>
+            </div>
             <div class="modal__content">
-                <h1 id="title" class="modal__title">Take wing to a new beginning</h1>
-                <h2 id="sub_title" class="modal__sub-title">Join forces with the dragonflights of Azeroth as they return
-                    to the Dragon Isles, a lost realm of magic and wonder. There await the dracthyr evokers, an all-new
-                    playable race and class of humanoid dragonkin who stand ready to join the ranks of the Horde and
-                    Alliance.</h2>
-                <div id="options" class="modal__button-wrap hide fade"><a href="#" class="modal__btn modal__btn--main"
-                        onclick="PlayDracthyr()">Dracthyr</a><a href="#" class="modal__btn modal__btn--secondary"
-                        onclick="PlayDragonIsles()">Dragon Isles</a></div>
-                <div id="DracthyrDiv" class="modal__button-wrap hide fade"><a href="#"
-                        class="modal__btn modal__btn--main" onclick="PlayDragonIsles()">Dragon Isles</a><a
-                        href="https://us.shop.battle.net/en-gb/product/world-of-warcraft-the-war-within" target="_blank"
-                        class="modal__btn modal__btn--secondary">Pre-Purchase</a></div>
-                <div id="DragonIslesDiv" class="modal__button-wrap hide fade"><a href="#"
-                        class="modal__btn modal__btn--main" onclick="PlayDracthyr()">Dracthyr</a><a
-                        href="https://us.shop.battle.net/en-gb/product/world-of-warcraft-the-war-within" target="_blank"
-                        class="modal__btn modal__btn--secondary">Pre-Purchase</a></div>
-                <div id="modal_complete" class="modal__button-wrap hide fade"><a
-                        href="https://dragonflight.blizzard.com/en-us/" target="_blank"
-                        class="modal__btn modal__btn--main">Learn More</a><a
-                        href="https://us.shop.battle.net/en-gb/product/world-of-warcraft-the-war-within" target="_blank"
-                        class="modal__btn modal__btn--secondary">Pre-Purchase</a></div>
+                <h1 id="title" class="modal__title">How to replace the battery on Sonos Move</h1>
+                <h2 id="sub_title" class="modal__sub-title">Improve the battery life for Sonos Move or Move 2 using the Replacement Battery Kit. In this video, we’ll show you how to swap out your old battery in just a few minutes.</h2>
+                <div class="modal__button-wrap">
+                    <a href="https://www.sonos.com/en-au/shop/move-2-battery-replacement?srsltid=AfmBOorCFIUgVEkV57k9qO4LCywJuG9c0nXoo8jv2Ww-G2144Xl71BRfKqo" target="_blank"
+                        class="modal__btn cta-button">Buy Now
+                        <img class="icon" src="https://img.icons8.com/ios-glyphs/30/shopping-cart--v1.png"/>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <script>let videoCurrent = '';
-        let videosPlayed = 0; // This will increment at the start of each video
-        let lastVideoSrc = ''; // To keep track of the last video source
 
-        let aud = document.getElementById("video");
-
-        // Increment videosPlayed at the start of each video
-        aud.addEventListener('play', function () {
-            if (aud.currentSrc !== lastVideoSrc) {
-                videosPlayed++;
-                lastVideoSrc = aud.currentSrc;
-                if (videosPlayed === 3) { // When the third video starts
-                    hideAllDivs();
-                    showDiv("modal_complete");
-                } else {
-                    showRelevantDiv();
-                }
-            }
-        });
-
-        function hideAllDivs() {
-            document.querySelectorAll('.modal__button-wrap').forEach((div) => {
-                div.classList.remove('show');
-                div.classList.add('hide');
-            });
-        }
-
-        function showDiv(id) {
-            const div = document.getElementById(id);
-            div.classList.remove('hide');
-            setTimeout(() => {
-                div.classList.add('show');
-            }, 10);
-        }
-
-        function showRelevantDiv() {
-            if (videoCurrent === '') {
-                showDiv("options");
-            } else if (videoCurrent === 'Dracthyr') {
-                showDiv("DracthyrDiv");
-            } else if (videoCurrent === 'DragonIsles') {
-                showDiv("DragonIslesDiv");
-            }
-        }
-
-        document.querySelectorAll('[data-button-id]').forEach(function (node) {
-            node.addEventListener('click', function () {
-                brazeBridge.closeMessage();
-            });
-        });
-
+    <script>
         function toggleSound() {
             var video = document.getElementById('video');
             var muteButton = document.querySelector('.modal__mute');
@@ -400,33 +402,7 @@
                 muteButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="rgba(0, 0, 0, 0.7)" viewBox="0 0 640 512"><path d="M533.6 32.5C598.5 85.3 640 165.8 640 256s-41.5 170.8-106.4 223.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C557.5 398.2 592 331.2 592 256s-34.5-142.2-88.7-186.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM473.1 107c43.2 35.2 70.9 88.9 70.9 149s-27.7 113.8-70.9 149c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C475.3 341.3 496 301.1 496 256s-20.7-85.3-53.2-111.8c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zm-60.5 74.5C434.1 199.1 448 225.9 448 256s-13.9 56.9-35.4 74.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C393.1 284.4 400 271 400 256s-6.9-28.4-17.7-37.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM301.1 34.8C312.6 40 320 51.4 320 64V448c0 12.6-7.4 24-18.9 29.2s-25 3.1-34.4-5.3L131.8 352H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h67.8L266.7 40.1c9.4-8.4 22.9-10.4 34.4-5.3z"></path></svg>';
             }
         }
-
-        function PlayDracthyr() {
-            videoCurrent = 'Dracthyr';
-            var video = document.getElementById('video');
-            const source = document.getElementById('source');
-            hideAllDivs();
-            let video_title = document.getElementById("title");
-            video_title.textContent = 'All-new Race: The Dracthyr';
-            video_title.style.fontSize = '20px';
-            let video_sub_title = document.getElementById("sub_title");
-            video_sub_title.textContent = 'Created by Neltharion the Earth-Warder, the essence of dragons was combined with the adaptability of the mortal races to create an elite soldier capable of switching from a draconic form to humanoid form.';
-            source.setAttribute('src', `https://cdn.playable.video/editor/6716589882474496/clickplay.mp4`);
-            video.load();
-        }
-
-        function PlayDragonIsles() {
-            videoCurrent = 'DragonIsles';
-            var video = document.getElementById('video');
-            const source = document.getElementById('source');
-            hideAllDivs();
-            let video_title = document.getElementById("title");
-            video_title.textContent = 'All-new Zone: The Dragon Isles';
-            let video_sub_title = document.getElementById("sub_title");
-            video_sub_title.textContent = 'The ancestral home of the dragonflights of Azeroth. When the world was broke apart in the Great Sundering, magic drained away and the land went dormant. As the Dragon Isles awaken, so too do old feuds and long-dormant threats.';
-            source.setAttribute('src', `https://cdn.playable.video/editor/4877861887148032/clickplay.mp4`);
-            video.load();
-        }</script>
+    </script>
 </body>
 
 </html>
